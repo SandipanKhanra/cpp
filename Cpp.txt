@@ -1,0 +1,36 @@
+Class is created using keyword class
+it holds data and functions
+class links code and data
+data and functions of the class are called 
+as member of the class
+
+Objects are variables
+They are copy the class
+each of them has properties and behavior
+Properties are defined through data elements
+Behavior is defined through member functions
+called methods 
+
+Syntax
+
+class class_name{
+	access specifiers
+	public/private/protected
+	Data members
+	Member functions
+
+};
+
+By default access specifier is private
+
+public specifier
+	>It allows data to be accessed outside the class
+	>A public memeber can be used anywhere in the program
+private specifier
+	>The members declared private can not be used outside
+	class
+	>private members can be used only by the members of the class
+protected specifier
+	>The members declared protected can not be used outside
+	class
+	>they can be accessed by a derived class
